@@ -603,11 +603,10 @@
 .cta{font-size:13px}
 .quote footer>span:last-child{flex:none;white-space:nowrap}
 
-/* Show the seated portrait from the supplied identity artwork, with its
-   original pixels and proportions. The right-hand typography stays outside
-   the frame; the complete artwork is used unchanged for social sharing. */
+/* Section 04 uses the supplied portrait. The OG artwork remains reserved for
+   social sharing metadata and is never rendered in this section. */
 .photo { width:38%; height:auto; aspect-ratio:740 / 909; right:6%; }
-.photo img { width:233.918919% !important; max-width:none; height:100% !important; left:-21.621622% !important; object-fit:fill; }
+.photo img { width:100% !important; max-width:none; height:100% !important; left:0 !important; object-fit:cover; object-position:center; }
 .photoArc { display:none; }
 @media(min-width:701px) and (max-width:1100px){.photo{width:43%;top:16%;right:4%}}
 @media(max-width:700px){.photo{width:100%;aspect-ratio:740 / 909;inset:auto;margin-inline:auto}.photoCopy{font-size:15px}}

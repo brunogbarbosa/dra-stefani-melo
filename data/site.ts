@@ -9,7 +9,7 @@ export const site = {
   instagram: 'https://www.instagram.com/dra.stefanimelo/', instagramHandle: '@dra.stefanimelo',
   philosophy: ['NATURALIDADE', 'ANTES DE', 'EXCESSOS.'],
   colors: { paper: '#f7f5f0', ink: '#322d27', taupe: '#78644f', champagne: '#cab9a3', dark: '#302a24' },
-  images: { hero: '/images/stefani-portrait.webp', about: '/images/stefani-consultorio.webp', beauty: '/images/stefani-portrait.webp' },
+  images: { hero: '/images/stefani-portrait.webp', about: '/images/stefani-consultorio.webp', beauty: '/images/stefani-identidade.webp' },
   procedures: [] as Procedure[], office: [] as {src:string;alt:string}[], testimonials: [] as Testimonial[],
   results: { enabled: true, items: [
     {image:'/images/resultado-perfil.webp',label:'A beleza dos seus traços',alt:'Registro comparativo facial enviado para o site da Dra. Stefani Melo',orientation:'horizontal',beforeShare:618/1254,comparisonRatio:618/1600},

@@ -13,7 +13,7 @@
 .campaign-metric { text-align:left; padding-inline:15px; }
 .campaign-metric strong { font-size:clamp(24px,2.2vw,36px); }
 .campaign-metric>span { font-size:10px; align-self:start; }
-.campaign-signature { bottom:45px; }
+.campaign-signature { position:relative; bottom:auto; width:53%; margin-top:40px; padding-bottom:40px; }
 .campaign-signature p { font-size:12px; }
 .campaign-signature em { font-size:20px; }
 .campaign-subtitle { font-size:18px; }
@@ -50,3 +50,11 @@
 }
 /* Fit each source orientation to the viewer without stretching its proportions. */
 .viewer-stage .comparison{width:min(100%,calc((100dvh - 300px) * var(--comparison-ratio)));height:auto;max-height:none;aspect-ratio:var(--comparison-ratio);flex:none}
+
+/* The signature follows the pillars in document flow, including short
+   desktop windows. It can no longer occupy the same space as their labels. */
+@media(min-width:701px){
+ .campaign{height:auto;min-height:850px;max-height:none}
+ .campaign-inner{height:auto;min-height:calc(100svh - 106px)}
+ .campaign-signature{position:relative;inset:auto;margin-top:40px;padding-bottom:42px}
+}

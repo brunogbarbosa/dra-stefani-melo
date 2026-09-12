@@ -85,7 +85,7 @@ export function ExperienceStatement() {
         src={site.images.beauty}
         alt="Dra. Stefani Melo sentada, com roupa branca"
         fill
-        sizes="(max-width: 700px) 220vw, (max-width: 1100px) 110vw, 90vw"
+        sizes="(max-width: 700px) 100vw, (max-width: 1100px) 43vw, 38vw"
       />
       <span className={styles.photoWash} aria-hidden="true" />
       <svg className={styles.photoArc} viewBox="0 0 720 740" preserveAspectRatio="none" aria-hidden="true" focusable="false">

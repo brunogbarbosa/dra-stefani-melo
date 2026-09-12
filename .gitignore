@@ -1,0 +1,15 @@
+node_modules/
+.next/
+out/
+dist/
+.env*
+!.env.example
+*.tsbuildinfo
+*.log
+.DS_Store
+.vercel/
+work/
+outputs/
+*.zip
+
+.sites-runtime/

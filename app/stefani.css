@@ -1,0 +1,52 @@
+/* Art direction for the supplied Stefani portraits; no inherited photo masks. */
+.campaign { min-height:850px; max-height:1120px; }
+.campaign-copy { width:57%; padding-top:65px; }
+.campaign h1 { font-size:clamp(60px,5.9vw,110px); line-height:1.02; }
+.campaign-kicker { font-size:12px; letter-spacing:.19em; }
+.campaign-portrait { width:48%; right:-1%; top:38px; aspect-ratio:1145/1600; }
+.campaign-silhouette { mask:linear-gradient(#000 80%,transparent 100%); -webkit-mask:linear-gradient(#000 80%,transparent 100%); border-radius:48% 48% 0 0; overflow:hidden; }
+.campaign-original { object-fit:cover; object-position:50% 0; }
+.campaign-seal { right:-3%; top:5px; width:125px; background:#f8f6f1e6; border-radius:50%; }
+.campaign-seal .seal-monogram { font-family:var(--serif); font-size:58px; letter-spacing:-5px; font-style:italic; }
+.campaign-editorial { right:-3%; top:auto; bottom:110px; background:#f8f6f1df; padding:14px; }
+.campaign-metrics { width:53%; margin-top:55px; grid-template-columns:repeat(3,1fr); }
+.campaign-metric { text-align:left; padding-inline:15px; }
+.campaign-metric strong { font-size:clamp(24px,2.2vw,36px); }
+.campaign-metric>span { font-size:10px; align-self:start; }
+.campaign-signature { bottom:45px; }
+.campaign-signature p { font-size:12px; }
+.campaign-signature em { font-size:20px; }
+.campaign-subtitle { font-size:18px; }
+.campaign-cta { font-size:13px; }
+.essence-stage { min-height:720px; }
+.essence-smile { width:39%; right:5%; top:120px; aspect-ratio:1284/1591; max-height:610px; mask:none; -webkit-mask:none; border-radius:48% 48% 3px 3px; overflow:hidden; }
+.essence-smile img { object-fit:cover; }
+.essence-editorial-copy { margin-left:7%; width:45%; }
+.essence-editorial h2 { font-size:clamp(64px,6.4vw,112px); }
+.essence-editorial-description { font-size:16px; width:90%; }
+.essence-value p { font-size:14px; }
+.gallery-grid { align-items:start; }
+.gallery-photo img { object-fit:contain; }
+.gallery-photo { background:#e9e3d9; }
+.gallery-item:last-child { grid-column:1 / -1; width:48%; justify-self:center; }
+.gallery-heading p,.ritual-list p { font-size:16px; }
+.viewer-stage .comparison { max-width:100%; max-height:100%; height:100%; width:auto; margin:auto; }
+.compare-half { background-repeat:no-repeat; }
+.header .header-cta { font-size:12px; }
+.desktop-nav { font-size:14px; }
+.brand-type small { font-size:10px; }
+.closing-bottom>span:empty { display:none; }
+@media(min-width:701px) and (max-width:1100px){
+ .campaign-copy{width:59%;padding-top:65px}.campaign h1{font-size:6.05vw}.campaign-portrait{width:49%;right:-3%;top:100px}.campaign-metrics{width:55%;display:grid;grid-template-columns:repeat(3,1fr);gap:0}.campaign-metric{padding-inline:10px!important}.campaign-metric strong{font-size:24px}.campaign-signature{bottom:35px}.campaign-seal{top:12px;right:0}.campaign-editorial{display:none}
+ .essence-smile{width:42%;right:3%;top:165px}.essence-editorial-copy{width:49%;margin-left:5%}.essence-editorial h2{font-size:7vw}.essence-editorial-cta{font-size:14px}.essence-stage{min-height:670px}
+}
+@media(max-width:700px){
+ .header .brand-type{font-size:12px;letter-spacing:.09em}.header .brand-type small{font-size:9px}.header .brand-monogram{font-size:48px}
+ .campaign{height:auto;min-height:0;max-height:none;padding:88px 6% 0}.campaign-inner{height:auto;display:flex;flex-direction:column;padding-bottom:40px}.campaign-copy{width:100%;padding-top:35px}.campaign-kicker{font-size:10px;letter-spacing:.12em}.campaign h1{font-size:10.9vw;line-height:1.01}.campaign-title-line:first-child{max-width:100%}.campaign-subtitle{font-size:16px;max-width:100%;margin-top:22px}.campaign-cta{font-size:12px;padding:16px 22px;min-height:55px;margin-top:22px;gap:30px}
+ .campaign-portrait{position:relative;width:100%;right:auto;top:auto;aspect-ratio:1145/1430;margin-top:32px;order:2}.campaign-silhouette{mask:linear-gradient(#000 86%,transparent);-webkit-mask:linear-gradient(#000 86%,transparent);border-radius:46% 46% 0 0}.campaign-original{object-position:center top}
+ .campaign-seal{width:96px;top:auto;right:-2%;bottom:175px;z-index:4}.campaign-editorial{display:none}.campaign-signature{display:none}.campaign-metrics{width:100%;order:3;display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:-3px}.campaign-metric{padding:0 10px!important;gap:8px;border:0}.campaign-metric:first-child{padding-left:0!important}.campaign-metric+.campaign-metric{border-left:1px solid var(--line)}.campaign-metric strong{font-size:25px;white-space:normal}.campaign-metric>span{font-size:9px;line-height:1.5;max-width:100%}
+ .essence-stage{height:auto;min-height:0;padding-bottom:45px}.essence-editorial-top{margin-inline:6%}.essence-editorial-copy{width:88%;margin-left:6%;padding-top:32px}.essence-editorial h2{font-size:13vw}.essence-editorial-description{font-size:16px;width:100%;max-width:100%}.essence-editorial-cta{font-size:14px;max-width:100%;flex-direction:row;align-items:center}.essence-smile{position:relative;top:auto;right:auto;width:76%;margin:34px 6% 0 auto;aspect-ratio:1284/1591;max-height:none;float:none}.essence-stage{display:flex;flex-direction:column}.essence-editorial-top{order:0}.essence-editorial-copy{order:1}.essence-smile{order:2}.essence-margin-note{left:6%;bottom:55px;writing-mode:vertical-rl;font-size:10px}.essence-margin-note span{display:none}.essence-thread-mobile{top:35%;height:65%}.essence-values-label{font-size:10px;letter-spacing:.08em}.essence-value p{font-size:14px}
+ .gallery-item:last-child{grid-column:auto;width:100%}.gallery-heading p{font-size:16px}.gallery-photo{aspect-ratio:.8}.gallery-item figcaption{gap:10px}.gallery-item figcaption>span:first-child{font-size:14px}.viewer-bottom{gap:10px}.viewer-mode{font-size:12px}.chapter-link{font-size:14px}.footer-bottom{gap:12px}
+}
+/* Fit each source orientation to the viewer without stretching its proportions. */
+.viewer-stage .comparison{width:min(100%,calc((100dvh - 300px) * var(--comparison-ratio)));height:auto;max-height:none;aspect-ratio:var(--comparison-ratio);flex:none}
